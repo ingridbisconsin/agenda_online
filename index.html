@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css"/>
+    <title>Agenda On-Line</title>
+    <link rel="icon" href="./images/agenda.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo_telefone.png" alt="desenho telefone azul"/>
+            <h1>Sua Agenda On-Line</h1>
+        </header>
+        <form id="form-contato">
+            <input type="text" id="contact-name" required placeholder="Nome Completo"/>
+            <input type="tel" id="contact-number" required placeholder="Número de Telefone"/>
+            <button id="btn-add" type="submit">Adicionar</button>
+            <button id="btn-clean" type="reset">Limpar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome do Contato
+                    </th>
+                    <th>
+                        Número de Contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
